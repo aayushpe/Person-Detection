@@ -72,7 +72,7 @@ def display_counts_and_warnings(frame, count):
     text_color = (0, 0, 0)  # Black text
     cv2.putText(frame, text, (10, 30), font, 1, text_color, 2, cv2.LINE_AA)
 
-    # Display warning if count exceeds 8
+    # Display warning if count exceeds 5
     if count > 5:
         warning_text = "WARNING: Too many people!"
         warning_color = (0, 0, 255)  # Red text
